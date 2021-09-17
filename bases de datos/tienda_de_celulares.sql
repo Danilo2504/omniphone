@@ -1,26 +1,37 @@
 create database tienda_de_celulares
 create table cliente(
-id_cliente int,
+id_cliente int NOT NULL,
 contrasena varchar(50),
-dni int,
+dni int unique NOT NULL,
 domicilio varchar(50),
 cod_compra int unique,
 tel int,
 nom_user varchar (20),
 apell_user varchar (20),
-email varchar(50),
+email varchar(50) NOT NULL,
 perfil_img bigint,
-date_comp date,
-tarjeta int unique,
+
+num_tarj int unique, --Numero tarjeta
 CONSTRAINT PK_cliente PRIMARY KEY(id_cliente))
 
+create table domicilio(
+id_cliente4 int,
+depto smallint, --Departamento
+piso smallint, --Piso
+calle varchar(50),
+altura smallint,--Altura de calle
+CONSTRAINT PK_cliente PRIMARY KEY (id_cliente4),
+CONSTRAINT FK_cliente_domicilio FOREIGN KEY (id_cliente4) REFERENCES cliente(id_cliente)
+)
+
 create table compra(
-cod_compra int,
-met_pago money,
-fecha_compra date,
-id_compra int,
-CONSTRAINT PK_compra PRIMARY KEY(id_compra),
--- CONSTRAINT FK_cliente_vent FOREIGN KEY(cod_compra) REFERENCES cliente(cod_compra)
+cod_compra int, --Codigo de compra
+met_pago money, --Metodo de pago
+fecha_compra date, --Fecha de compra
+id_cliente3 int unique,
+CONSTRAINT PK_compra PRIMARY KEY(cod_compra),
+CONSTRAINT FK_cliente_compra FOREIGN KEY(id_cliente3) REFERENCES cliente(id_cliente),
+CONSTRAINT FK_compra_producto FOREIGN KEY(id_cliente3) REFERENCES producto(id_compra4)
 )
 
 create table producto
