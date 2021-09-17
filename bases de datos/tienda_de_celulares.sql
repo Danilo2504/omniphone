@@ -1,4 +1,5 @@
 create database tienda_de_celulares
+use tienda_de_celulares
 create table cliente(
 id_cliente int NOT NULL,
 contrasena varchar(50),
