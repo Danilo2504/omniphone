@@ -1,5 +1,5 @@
-create database tienda_de_celulares
-use tienda_de_celulares
+create database Omniphone
+use Omniphone
 create table cliente(
 id_cliente int NOT NULL,
 contrasena varchar(50),
@@ -25,16 +25,6 @@ CONSTRAINT PK_cliente PRIMARY KEY (id_cliente4),
 CONSTRAINT FK_cliente_domicilio FOREIGN KEY (id_cliente4) REFERENCES cliente(id_cliente)
 )
 
-create table compra(
-cod_compra int, --Codigo de compra
-met_pago money, --Metodo de pago
-fecha_compra date, --Fecha de compra
-id_cliente3 int unique,
-CONSTRAINT PK_compra PRIMARY KEY(cod_compra),
-CONSTRAINT FK_cliente_compra FOREIGN KEY(id_cliente3) REFERENCES cliente(id_cliente),
-CONSTRAINT FK_compra_producto FOREIGN KEY(id_cliente3) REFERENCES producto(id_compra4)
-)
-
 create table producto
 (id_prod int,
 id_cliente2 int unique,
@@ -47,6 +37,16 @@ marca_prod varchar(20),
 envio int,
 CONSTRAINT PK_prod PRIMARY KEY(id_prod),
 constraint FK_prod_cliente FOREIGN KEY(id_cliente2) REFERENCES cliente(id_cliente))
+
+create table compra(
+cod_compra int, --Codigo de compra
+met_pago money, --Metodo de pago
+fecha_compra date, --Fecha de compra
+id_cliente3 int unique,
+CONSTRAINT PK_compra PRIMARY KEY(cod_compra),
+CONSTRAINT FK_cliente_compra FOREIGN KEY(id_cliente3) REFERENCES cliente(id_cliente),
+CONSTRAINT FK_compra_producto FOREIGN KEY(id_cliente3) REFERENCES producto(id_prod)
+)
 
 CREATE TABLE caract(
 id_prod2 int,
