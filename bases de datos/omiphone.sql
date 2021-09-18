@@ -1,19 +1,19 @@
 create database Omniphone
 use Omniphone
+
 create table cliente(
 id_cliente int NOT NULL,
 contrasena varchar(50),
 dni int unique NOT NULL,
-domicilio varchar(50),
 cod_compra int unique,
 tel int,
 nom_user varchar (20),
 apell_user varchar (20),
 email varchar(50) NOT NULL,
 perfil_img bigint,
-
 num_tarj int unique, --Numero tarjeta
-CONSTRAINT PK_cliente PRIMARY KEY(id_cliente))
+CONSTRAINT PK_cliente PRIMARY KEY(id_cliente)
+)
 
 create table domicilio(
 id_cliente4 int,
@@ -21,7 +21,7 @@ depto smallint, --Departamento
 piso smallint, --Piso
 calle varchar(50),
 altura smallint,--Altura de calle
-CONSTRAINT PK_cliente PRIMARY KEY (id_cliente4),
+CONSTRAINT PK_cliente_4 PRIMARY KEY (id_cliente4),
 CONSTRAINT FK_cliente_domicilio FOREIGN KEY (id_cliente4) REFERENCES cliente(id_cliente)
 )
 
@@ -36,7 +36,8 @@ nom_prod varchar(50),
 marca_prod varchar(20),
 envio int,
 CONSTRAINT PK_prod PRIMARY KEY(id_prod),
-constraint FK_prod_cliente FOREIGN KEY(id_cliente2) REFERENCES cliente(id_cliente))
+constraint FK_prod_cliente FOREIGN KEY(id_cliente2) REFERENCES cliente(id_cliente)
+)
 
 create table compra(
 cod_compra int, --Codigo de compra
