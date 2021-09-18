@@ -25,15 +25,12 @@ CONSTRAINT FK_cliente_domicilio FOREIGN KEY (id_cliente1) REFERENCES cliente(id_
 
 create table producto(
 id_prod int,
-id_cliente3 int,
 color varchar(20),
 precio money,
 stock int,
-fot_prod bigint,
 nom_prod varchar(50),
 marca_prod varchar(20),
-CONSTRAINT PK_prod PRIMARY KEY(id_prod),
-constraint FK_prod_cliente FOREIGN KEY(id_cliente3) REFERENCES cliente(id_cliente)
+CONSTRAINT PK_prod PRIMARY KEY(id_prod)
 )
 
 create table compra(
@@ -55,7 +52,7 @@ camara varchar(40),
 cpu varchar(40),
 antena varchar(40),
 ram smallint,
-cam_frtl smallint,
+cam_frtl varchar(20),
 sist_opr varchar(20),
 bateria smallint,
 pantalla_res varchar(20), --resolución de pantalla
