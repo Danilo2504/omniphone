@@ -5,7 +5,6 @@ create table cliente(
 id_cliente int NOT NULL,
 contrasena varchar(50),
 dni int unique NOT NULL,
-cod_compra int unique,
 tel int,
 nom_user varchar (20),
 apell_user varchar (20),
@@ -16,37 +15,35 @@ CONSTRAINT PK_cliente PRIMARY KEY(id_cliente)
 )
 
 create table domicilio(
-id_cliente4 int,
+id_cliente1 int,
 depto smallint, --Departamento
 piso smallint, --Piso
 calle varchar(50),
 altura smallint,--Altura de calle
-CONSTRAINT PK_cliente_4 PRIMARY KEY (id_cliente4),
-CONSTRAINT FK_cliente_domicilio FOREIGN KEY (id_cliente4) REFERENCES cliente(id_cliente)
+CONSTRAINT FK_cliente_domicilio FOREIGN KEY (id_cliente1) REFERENCES cliente(id_cliente)
 )
 
-create table producto
-(id_prod int,
-id_cliente2 int unique,
+create table producto(
+id_prod int,
+id_cliente3 int,
 color varchar(20),
 precio money,
 stock int,
 fot_prod bigint,
 nom_prod varchar(50),
 marca_prod varchar(20),
-envio int,
 CONSTRAINT PK_prod PRIMARY KEY(id_prod),
-constraint FK_prod_cliente FOREIGN KEY(id_cliente2) REFERENCES cliente(id_cliente)
+constraint FK_prod_cliente FOREIGN KEY(id_cliente3) REFERENCES cliente(id_cliente)
 )
 
 create table compra(
-cod_compra int, --Codigo de compra
-met_pago money, --Metodo de pago
+id_compra int, --Codigo de compra
+met_pago varchar(20), --Metodo de pago varchar(20)
+cant smallint,
 fecha_compra date, --Fecha de compra
-id_cliente3 int unique,
-CONSTRAINT PK_compra PRIMARY KEY(cod_compra),
-CONSTRAINT FK_cliente_compra FOREIGN KEY(id_cliente3) REFERENCES cliente(id_cliente),
-CONSTRAINT FK_compra_producto FOREIGN KEY(id_cliente3) REFERENCES producto(id_prod)
+id_cliente2 int unique,
+CONSTRAINT PK_compra PRIMARY KEY(id_compra),
+CONSTRAINT FK_cliente_compra FOREIGN KEY(id_cliente2) REFERENCES cliente(id_cliente),
 )
 
 CREATE TABLE caract(
@@ -65,5 +62,5 @@ pantalla_res varchar(20), --resolución de pantalla
 peso_gm smallint,
 lnch_date date,
 constraint PK_caract primary key  (id_cate),
-constraint FK_prod_carac FOREIGN KEY(id_prod2) REFERENCES Producto (id_prod) 
+constraint FK_prod_carac FOREIGN KEY(id_prod2) REFERENCES producto (id_prod) 
 )
