@@ -9,7 +9,6 @@ tel int,
 nom_user varchar (20),
 apell_user varchar (20),
 email varchar(50) NOT NULL,
-perfil_img bigint,
 num_tarj int unique, --Numero tarjeta
 CONSTRAINT PK_cliente PRIMARY KEY(id_cliente)
 )
