@@ -4,25 +4,37 @@
     	<meta charset="utf-8">
     	<title>Ecommerce Celulares</title>
     	<meta name="viewport" content="width=divce-width, user-scalabe=no, initial-scale=1.0, maxium-scale=1.0, minum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css\estilos.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
         <header>
-            <div class="header_main-titulo">
-                <h1>Tienda<br>Celular</h1>
+            <div class="header-titulo">
+                <h1><a href="#">Tienda Celular</a></h1>
             </div>
-            <div class="header_searh-bar">
-                <form method="post" action="#">
-                    <input type="text" placeholder="Buscar">
-                    <button><i class="fa fa-search"></i></button>
-                </form>
-            </div>
-            <div class="header_menu-icon">
+            <nav class="header-menu-top">
+                <ol>
+                    <li>
+                        <a href="#">Inicio</a>
+                        <a href="#">Servicios</a>
+                        <a href="#">Productos</a>
+                        <a href="#">Reviews</a>
+                        <a href="#">Info Contacto</a>
+                    </li>
+                </ol>
+            </nav>
+            <div class="header-menu-icon">
                 <a href="#" class="menu-icon_user"><span><i class="fa fa-user"></i></span></a>
                 <a href="#" class="menu-icon_carrito"><i class="fa fa-cart-arrow-down"></i><sup>0</sup></a>
                 <a href="#" class="menu-icon_favorito"><span><i class="fa fa-heart"></i></span></a>
             </div>
         </header>
+        <section class="search-bar">
+            <form>
+                <input type="text" placeholder="Buscar">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+        </section>
         <nav>
             <h2 class="nav-filtro_titulo">Filtrar por</h2>
             <div class="nav-filtro_opcion">

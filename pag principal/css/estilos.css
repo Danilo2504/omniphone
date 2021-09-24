@@ -1,0 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	display: inline-block;
+	background-color: blue;
+}
+.header-menu-top a{
+	color: white;
+}
+.header-titulo a{
+	color: white;
+}
+.header-menu-icon a{
+	color: white;
+}
