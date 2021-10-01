@@ -69,7 +69,7 @@ INSERT INTO caract (id_prod2,id_cate,tamano,color,memoria,camara,cpu,antena,ram,
 (3921,0,'159.2 x 75.7 x 8.2 mm','Negro','64GB','16 MP','Octa-core 1.8 GHz Cortex-A53','4G','4GB','16 MP','Android 8.0, hasta Android 9.0','Li-Ion 3500 mAh, no removible','720 x 1480 pixels','177 g','2018-07-10'),
 (3221,0,'159.9 x 74 x 8.4 mm','Blanco','128GB','48 MP','Mediatek Helio G80 (12 nm)','5G','4GB','13 MP','Android 11, One UI Core 3.1','Li-Po 5000 mAh, no removible','720 x 1600 pixels','186 g','2021-09-11'),
 (2003,0,'151.7 x 75 x 8 mm','Negro','64 GB ','13 MP','Octa-core 1.6 GHz Cortex-A53','4G','3 GB','8 MP','Android 6.0.1, hasta Android 9.0, One UI','Li-Ion 3300 mAh, no-Renovable','83.4 cm2','167 g','2016-11-30')
-
+(3000,0,'',)
 --drop table caract
 
 --delete from caract
