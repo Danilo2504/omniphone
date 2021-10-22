@@ -6,8 +6,6 @@
 header{
 	background-color: blue;
 	text-align: center;
-	position: sticky;
-	top: 0;
 }
 .menu-arriba-cabeza a{
 	color: white;
@@ -37,7 +35,7 @@ header{
 	color: white;
 }
 .menu-iconos-cabeza ul{
-	text-align: right;
+
 }
 /*Lista de menu de iconos header*/
 .menu-iconos-cabeza li{
@@ -45,6 +43,6 @@ header{
 	padding-top: 5px;
 	padding-bottom:5px;
 	padding-left: 5px; 
-	padding-right: 11px;
+	padding-right: 10px;
 }
 
