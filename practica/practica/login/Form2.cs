@@ -12,22 +12,31 @@ namespace login
 {
     public partial class Form2 : Form
     {
-        string contra = ":V";
+        string contra = "Omniphone";
         perdon perdon = new perdon();
         graciasdios graciasdios = new graciasdios();
         public Form2()
         {
             InitializeComponent();
-            
+
         }
 
         private void btn_confirmar_Click(object sender, EventArgs e)
         {
             if (clave.Text == contra)
             {
+                graciasdios = new graciasdios();
                 graciasdios.Show();
             }
-            else{ perdon.Show(); }
+            else { perdon.Show(); }
         }
+
+        private void clave_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
     }
 }

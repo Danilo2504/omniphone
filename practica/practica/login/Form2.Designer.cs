@@ -35,10 +35,6 @@ namespace login
             this.label_usuario = new System.Windows.Forms.Label();
             this.label_clave = new System.Windows.Forms.Label();
             this.btn_confirmar = new System.Windows.Forms.Button();
-            this.btn_cancelar = new System.Windows.Forms.Button();
-            this.btn_mogolico = new System.Windows.Forms.Button();
-            this.ayuda = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.ayuda)).BeginInit();
             this.SuspendLayout();
             // 
             // usuario
@@ -58,6 +54,7 @@ namespace login
             this.clave.Size = new System.Drawing.Size(281, 23);
             this.clave.TabIndex = 1;
             this.clave.UseSystemPasswordChar = true;
+            this.clave.TextChanged += new System.EventHandler(this.clave_TextChanged);
             // 
             // label_usuario
             // 
@@ -65,9 +62,9 @@ namespace login
             this.label_usuario.BackColor = System.Drawing.Color.Transparent;
             this.label_usuario.Location = new System.Drawing.Point(63, 53);
             this.label_usuario.Name = "label_usuario";
-            this.label_usuario.Size = new System.Drawing.Size(76, 15);
+            this.label_usuario.Size = new System.Drawing.Size(47, 15);
             this.label_usuario.TabIndex = 2;
-            this.label_usuario.Text = "Omniusuario";
+            this.label_usuario.Text = "Usuario";
             // 
             // label_clave
             // 
@@ -75,52 +72,20 @@ namespace login
             this.label_clave.BackColor = System.Drawing.Color.Transparent;
             this.label_clave.Location = new System.Drawing.Point(63, 119);
             this.label_clave.Name = "label_clave";
-            this.label_clave.Size = new System.Drawing.Size(64, 15);
+            this.label_clave.Size = new System.Drawing.Size(67, 15);
             this.label_clave.TabIndex = 3;
-            this.label_clave.Text = "Omniclave";
+            this.label_clave.Text = "Contraseña";
             // 
             // btn_confirmar
             // 
             this.btn_confirmar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_confirmar.Location = new System.Drawing.Point(230, 241);
+            this.btn_confirmar.Location = new System.Drawing.Point(164, 185);
             this.btn_confirmar.Name = "btn_confirmar";
             this.btn_confirmar.Size = new System.Drawing.Size(75, 23);
             this.btn_confirmar.TabIndex = 0;
             this.btn_confirmar.Text = "Confirmar";
             this.btn_confirmar.UseVisualStyleBackColor = false;
             this.btn_confirmar.Click += new System.EventHandler(this.btn_confirmar_Click);
-            // 
-            // btn_cancelar
-            // 
-            this.btn_cancelar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_cancelar.Location = new System.Drawing.Point(319, 241);
-            this.btn_cancelar.Name = "btn_cancelar";
-            this.btn_cancelar.Size = new System.Drawing.Size(75, 23);
-            this.btn_cancelar.TabIndex = 4;
-            this.btn_cancelar.Text = "Cancelar";
-            this.btn_cancelar.UseVisualStyleBackColor = false;
-            // 
-            // btn_mogolico
-            // 
-            this.btn_mogolico.BackColor = System.Drawing.Color.Transparent;
-            this.btn_mogolico.Location = new System.Drawing.Point(278, 184);
-            this.btn_mogolico.Name = "btn_mogolico";
-            this.btn_mogolico.Size = new System.Drawing.Size(98, 23);
-            this.btn_mogolico.TabIndex = 5;
-            this.btn_mogolico.Text = "Olvidé mi clave";
-            this.btn_mogolico.UseVisualStyleBackColor = false;
-            // 
-            // ayuda
-            // 
-            this.ayuda.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.ayuda.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ayuda.Image = ((System.Drawing.Image)(resources.GetObject("ayuda.Image")));
-            this.ayuda.Location = new System.Drawing.Point(63, 166);
-            this.ayuda.Name = "ayuda";
-            this.ayuda.Size = new System.Drawing.Size(100, 50);
-            this.ayuda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ayuda.TabIndex = 6;
-            this.ayuda.TabStop = false;
             // 
             // Form2
             // 
@@ -129,9 +94,6 @@ namespace login
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(421, 276);
-            this.Controls.Add(this.ayuda);
-            this.Controls.Add(this.btn_mogolico);
-            this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.btn_confirmar);
             this.Controls.Add(this.label_clave);
             this.Controls.Add(this.label_usuario);
@@ -141,7 +103,6 @@ namespace login
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "logindelpapu";
-            ((System.ComponentModel.ISupportInitialize)(this.ayuda)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,8 +115,5 @@ namespace login
         private System.Windows.Forms.Label label_usuario;
         private System.Windows.Forms.Label label_clave;
         private System.Windows.Forms.Button btn_confirmar;
-        private System.Windows.Forms.Button btn_cancelar;
-        private System.Windows.Forms.Button btn_mogolico;
-        private System.Windows.Forms.PictureBox ayuda;
     }
 }
