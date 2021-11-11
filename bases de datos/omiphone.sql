@@ -60,3 +60,8 @@ lnch_date date,
 constraint PK_caract primary key  (id_cate),
 constraint FK_prod_carac FOREIGN KEY(id_prod2) REFERENCES producto (id_prod) 
 )
+
+
+SELECT nom_user, apell_user, dni, email FROM cliente where id_cliente=111
+
+
