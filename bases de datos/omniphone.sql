@@ -53,7 +53,7 @@ ram varchar(100),
 cam_frtl varchar(20),
 sist_opr varchar(100),
 bateria varchar(50),
-pantalla_res varchar(50), --resolución de pantalla
+pantalla_res varchar(50), --resoluciÃ³n de pantalla
 peso varchar(50),
 lnch_date date,
 constraint PK_caract PRIMARY KEY (id_prod2),
@@ -66,7 +66,7 @@ INSERT INTO producto (id_prod,precio,stock,nom_prod,marca_prod)VALUES
 (3221,41524,219,'Samsung Galaxy M22','Samsung'),
 (2003,20000,133,'Samsung Galaxy J7 Prime','Samsung'),
 (3000,243000,300, 'iPhone 13', 'Apple'),
-(3001,69770,127, 'iPhone 13 minì', 'Apple'),
+(3001,69770,127, 'iPhone 13 minÃ¬', 'Apple'),
 (3002,50999,100, 'Xiaomi POCO M3 PRO 5G', 'Xiaomi'),
 (3003,60999,100, 'Xiaomi POCO X3 PRO', 'Xiaomi'),
 (3004,70999,50, 'Xiaomi POCO  X3 GT', 'Xiaomi')
@@ -85,4 +85,21 @@ INSERT INTO caract (id_prod2,tamano,color,memoria,camara,cpu,antena,ram,cam_frtl
 (3004,'163.3 x 75.9 x 8.9 mm','Wave Blue','256GB', 'Triple camera 64 MP','MediaTek MT6891Z Dimensity 1100 5G (6 nm)', '5G', '8GB', '16 MP', 'Android 11 MIUI 12','5000 mAh','1080 x 2400 pixels','193 g','2021-08-19')
 
 select * from caract
+--ELIMINAR PRODUCTO y CARACTERISTICAS-------------------------
+drop eliminar_producto 
+GO
+create procedure eliminar_producto @id_prod int
+AS
+delete from producto where id_prod = @id_prod
+delete from caract where id_prod2 = @id_prod
+GO
+----------------------------------------------------------------
+----INSERTAR PRODUCTO y CARACTERISTICAS-------------------------
+insert into producto values(5212,71231,629423, 'yes man', 'roberto house')
+update producto
+set id_prod = 02121 where id_prod =5212
+----------------------------------------------------------------
+
+
+
 drop database Omniphone
