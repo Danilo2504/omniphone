@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\source\\repos\\omniphone\\practica\\practica\\login\\login.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\login.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\source\\repos\\omniphone\\practica\\practica\\login\\login.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\omniphone\\practica\\practica\\login\\login.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\login.csproj",
         "projectName": "login",
-        "projectPath": "C:\\Users\\Alumno\\source\\repos\\omniphone\\practica\\practica\\login\\login.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\login.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\source\\repos\\omniphone\\practica\\practica\\login\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
