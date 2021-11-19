@@ -39,14 +39,15 @@ namespace Producto
             this.nom_prod = new System.Windows.Forms.Label();
             this.precio = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -140,22 +141,33 @@ namespace Producto
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(454, 347);
+            this.button1.Location = new System.Drawing.Point(452, 303);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(172, 84);
+            this.button1.Size = new System.Drawing.Size(213, 61);
             this.button1.TabIndex = 5;
             this.button1.Text = "COMPRAR";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // pictureBox6
+            // pictureBox7
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(452, 258);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(78, 70);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.pictureBox7.Location = new System.Drawing.Point(12, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox7.TabIndex = 7;
+            this.pictureBox7.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.button2.Location = new System.Drawing.Point(452, 370);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(213, 61);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "COMPRAR";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -163,7 +175,8 @@ namespace Producto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(810, 532);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.precio);
             this.Controls.Add(this.nom_prod);
@@ -178,7 +191,7 @@ namespace Producto
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,7 +208,8 @@ namespace Producto
         private System.Windows.Forms.Label nom_prod;
         private System.Windows.Forms.Label precio;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Button button2;
     }
 }
 
