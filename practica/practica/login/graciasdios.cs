@@ -22,5 +22,10 @@ namespace login
             this.Close();
             
         }
+
+        private void graciasdios_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
