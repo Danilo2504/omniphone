@@ -13,8 +13,6 @@ namespace login
     public partial class Form2 : Form
     {
         string contra = ":V";
-        perdon perdon = new perdon();
-        graciasdios graciasdios = new graciasdios();
         public Form2()
         {
             InitializeComponent();

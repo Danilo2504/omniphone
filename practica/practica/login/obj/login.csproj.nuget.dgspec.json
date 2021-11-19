@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GOSTE\\source\\repos\\omniphone\\practica\\practica\\login\\login.csproj": {}
+    "C:\\Users\\GOSTE\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GOSTE\\source\\repos\\omniphone\\practica\\practica\\login\\login.csproj": {
+    "C:\\Users\\GOSTE\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GOSTE\\source\\repos\\omniphone\\practica\\practica\\login\\login.csproj",
+        "projectUniqueName": "C:\\Users\\GOSTE\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj",
         "projectName": "login",
-        "projectPath": "C:\\Users\\GOSTE\\source\\repos\\omniphone\\practica\\practica\\login\\login.csproj",
+        "projectPath": "C:\\Users\\GOSTE\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj",
         "packagesPath": "C:\\Users\\GOSTE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GOSTE\\source\\repos\\omniphone\\practica\\practica\\login\\obj\\",
+        "outputPath": "C:\\Users\\GOSTE\\Desktop\\omniphone\\practica\\practica\\login\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GOSTE\\AppData\\Roaming\\NuGet\\NuGet.Config",

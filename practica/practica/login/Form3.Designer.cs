@@ -1,7 +1,7 @@
 ﻿
 namespace login
 {
-    partial class graciasdios
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -29,22 +29,10 @@ namespace login
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(graciasdios));
-            this.SuspendLayout();
-            // 
-            // graciasdios
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(294, 309);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "graciasdios";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form3";
-            this.ResumeLayout(false);
-
         }
 
         #endregion
