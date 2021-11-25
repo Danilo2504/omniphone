@@ -2,44 +2,43 @@ create database Omniphone
 use Omniphone
 
 create table Cliente(
-	id_cliente int,
-	Contrasena varchar(50),
-	DNI int unique NOT NULL,
-	Telefono int,
-	Nombre varchar (20),
-	Apellido varchar (20),
-	Email varchar(50) NOT NULL,
-	NumeroTarjeta int unique,
-	CONSTRAINT PK_Cliente PRIMARY KEY(id_cliente)
+	ClienteID int,
+	ContrasenaCliente varchar(50),
+	DNICliente int unique NOT NULL,
+	TelefonoCliente int,
+	NombreCliente varchar (20),
+	ApellidoCliente varchar (20),
+	EmailCliente varchar(50) NOT NULL,
+	CONSTRAINT PK_Cliente PRIMARY KEY(ClienteID)
 )
 
 create table Domicilio(
-	id_domicilio int,
-	Departamento smallint,
-	Piso smallint,
-	Calle varchar(50),
-	Altura smallint,
-	CONSTRAINT PK_Domicilio PRIMARY KEY(id_domicilio))
+	DomicilioID int,
+	DepartamentoDomicilio smallint,
+	PisoDomicilio smallint,
+	CalleDomicilio varchar(50),
+	AlturaDomicilio smallint,
+	CONSTRAINT PK_Domicilio PRIMARY KEY(DomicilioID))
 
 CREATE TABLE Producto(
-	id_producto int,
-	Precio money,
-	Stock int,
+	ProductoID int,
+	PrecioProducto money,
+	StockProducto int,
 	NombreProducto varchar(50),
-	Marca varchar(20),
-	CONSTRAINT PK_prod PRIMARY KEY(id_producto)
+	MarcaProducto varchar(20),
+	CONSTRAINT PK_Producto PRIMARY KEY(ProductoID)
 )
 
 create table Compra(
-	id_compra int, --Codigo de compra
+	CompraID int,
 	MetodoPago varchar(20),
-	Cantidad smallint,
+	CantidadCompra int,
 	FechaCompra date,
-	CONSTRAINT PK_Compra PRIMARY KEY(id_compra)
+	CONSTRAINT PK_Compra PRIMARY KEY(CompraID)
 )
 
 CREATE TABLE Caracteristicas(
-	id_caracteristicas int,
+	CaracteristicasID int,
 	Tamano varchar(100),
 	Color varchar(20),
 	Memoria varchar(40),
@@ -53,30 +52,67 @@ CREATE TABLE Caracteristicas(
 	ResolucionPantalla varchar(100),
 	Peso varchar(100),
 	FechaLanzamiento date,
-	constraint PK_Caracteristicas PRIMARY KEY (id_caracteristicas)
+	constraint PK_Caracteristicas PRIMARY KEY (CaracteristicasID)
+)
+CREATE TABLE Venta(
+	VentaID int,
+	DescripcionVenta varchar(100),
+	FechaVenta date,
+	CONSTRAINT PK_Venta PRIMARY KEY (VentaID)
+)
+
+CREATE TABLE Historial(
+	HistorialID int,
+	DescripcionHistorial varchar(100),
+	FechaHistorial date,
+	CONSTRAINT PK_Historial PRIMARY KEY (HistorialID) 
 )
 
 CREATE TABLE ClienteDomicilio(
-	id_cliente1 int,
-	id_domicilio1 int,
-	CONSTRAINT FK_Cliente_ClienteDomicilio FOREIGN KEY (id_cliente1) REFERENCES Cliente (id_cliente),
-	CONSTRAINT FK_Domicilio_ClienteDomicilio FOREIGN KEY (id_domicilio1) REFERENCES Domicilio (id_domicilio)
+	ClienteID1 int,
+	DomicilioID1 int,
+	CONSTRAINT FK_Cliente_ClienteDomicilio FOREIGN KEY (ClienteID1) REFERENCES Cliente (ClienteID),
+	CONSTRAINT FK_Domicilio_ClienteDomicilio FOREIGN KEY (DomicilioID1) REFERENCES Domicilio (DomicilioID)
+)
+
+
+CREATE TABLE ProductoCaracteristicas(
+	ProductoID2 int,
+	CaracteristicasID1 int,
+	CONSTRAINT FK_Producto_ProductoCaracteristicas FOREIGN KEY(ProductoID2) REFERENCES Producto(ProductoID),
+	CONSTRAINT FK_Caracteristicas_ProductoCaracteristicas FOREIGN KEY(CaracteristicasID1) REFERENCES Caracteristicas(CaracteristicasID)
 )
 
 CREATE TABLE VentaInfo(
-	id_producto1 int,
-	id_compra1 int,
-	id_cliente2 int,
-	CONSTRAINT FK_Producto_VentaInfo FOREIGN KEY(id_producto1) REFERENCES Producto(id_producto),
-	CONSTRAINT FK_Compra_VentaInfo FOREIGN KEY(id_compra1) REFERENCES Compra(id_compra),
-	CONSTRAINT FK_Cliente_VentaInfo FOREIGN KEY(id_cliente2) REFERENCES Cliente(id_cliente)
+	VentaID1 int,
+	ProductoID1 int,
+	CompraID1 int,
+	ClienteID2 int,
+	CONSTRAINT FK_Venta_VentaInfo FOREIGN KEY(VentaID1) REFERENCES Venta(VentaID),
+	CONSTRAINT FK_Producto_VentaInfo FOREIGN KEY(ProductoID1) REFERENCES Producto(ProductoID),
+	CONSTRAINT FK_Compra_VentaInfo FOREIGN KEY(CompraID1) REFERENCES Compra(CompraID),
+	CONSTRAINT FK_Cliente_VentaInfo FOREIGN KEY(ClienteID2) REFERENCES Cliente(ClienteID)
 )
 
-CREATE TABLE ProductoCaracteristicas(
-	id_producto2 int,
-	id_caracteristicas1 int,
-	CONSTRAINT FK_Producto_ProductoCaracteristicas FOREIGN KEY(id_producto2) REFERENCES Producto(id_producto),
-	CONSTRAINT FK_Caracteristicas_ProductoCaracteristicas FOREIGN KEY(id_caracteristicas1) REFERENCES Caracteristicas(id_caracteristicas)
+
+CREATE TABLE HistorialProducto(
+	ProductoID3 int,
+	HistorialID1 int,
+	CONSTRAINT FK_Producto_HistorialProducto FOREIGN KEY(ProductoID3) REFERENCES Producto(ProductoID),
+	CONSTRAINT FK_Historial_HistorialProducto FOREIGN KEY(HistorialID1) REFERENCES Historial(HistorialID)
 )
 
+CREATE TABLE HistorialCliente(
+	HistorialID2 int,
+	ClienteID3 int,
+	CONSTRAINT FK_Historial_HistorialCliente FOREIGN KEY(HistorialID2) REFERENCES Historial(HistorialID),
+	CONSTRAINT FK_Cliente_HistorialCliente FOREIGN KEY(ClienteID3) REFERENCES Cliente(ClienteID)
+)
+
+
+CREATE PROCEDURE SP_
+
+--CREATE TABLE Tarjeta(Numero int)
+--CREATE TABLE ClienteTarjeta()
+use master
 drop database Omniphone
