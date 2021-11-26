@@ -110,9 +110,13 @@ CREATE TABLE HistorialCliente(
 )
 
 
-CREATE PROCEDURE SP_
+---Buscar desde bara de busqueda---
+drop procedure sp_BusquedaDeBarra
+go
+CREATE PROCEDURE sp_BusquedaDeBarra (@busqueda varchar(50))
+AS
+SELECT * FROM Producto WHERE NombreProducto=@busqueda
+GO
+exec sp_BusquedaDeBarra'Samsung'
 
---CREATE TABLE Tarjeta(Numero int)
---CREATE TABLE ClienteTarjeta()
-use master
-drop database Omniphone
+---
