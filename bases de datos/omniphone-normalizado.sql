@@ -22,13 +22,14 @@ create table Domicilio(
 
 CREATE TABLE Producto(
 	ProductoID int,
-	PrecioProducto money,
-	StockProducto int,
 	NombreProducto varchar(50),
 	MarcaProducto varchar(20),
+	PrecioProducto money,
+	StockProducto int,
 	CONSTRAINT PK_Producto PRIMARY KEY(ProductoID)
 )
 
+insert into Producto VALUES(1,'cristiancelular','samsung',213123,2133333)
 create table Compra(
 	CompraID int,
 	MetodoPago varchar(20),
@@ -111,12 +112,25 @@ CREATE TABLE HistorialCliente(
 
 
 ---Buscar desde bara de busqueda---
-drop procedure sp_BusquedaDeBarra
-go
-CREATE PROCEDURE sp_BusquedaDeBarra (@busqueda varchar(50))
+
+CREATE VIEW V_InvitadoProducto
+WITH ENCRYPTION
 AS
-SELECT * FROM Producto WHERE NombreProducto=@busqueda
+SELECT NombreProducto,MarcaProducto FROM Producto
 GO
-exec sp_BusquedaDeBarra'Samsung'
+select * from V_InvitadoProducto
+drop procedure sp_BusquedaHomepage
+go
+CREATE PROCEDURE sp_BusquedaHomepage (@busqueda varchar(50))
+AS
+SELECT * FROM V_InvitadoProducto WHERE MarcaProducto LIKE @busqueda
+GO
+exec sp_BusquedaHomepage 'Samsung'
 
 ---
+use master
+
+CREATE LOGIN Omnidata WITH PASSWORD = '';
+
+use master
+drop database Omniphone
