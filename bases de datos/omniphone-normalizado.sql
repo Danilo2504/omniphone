@@ -109,10 +109,11 @@ CREATE TABLE HistorialCliente(
 	CONSTRAINT FK_Cliente_HistorialCliente FOREIGN KEY(ClienteID3) REFERENCES Cliente(ClienteID)
 )
 
+drop procedure sp_busqueda
+go
+create procedure sp_busqueda (@valor varchar(50))
+as
+select* from Producto where NombreProducto like @valor
+go
+exec sp_busqueda 'samsung'
 
-CREATE PROCEDURE SP_
-
---CREATE TABLE Tarjeta(Numero int)
---CREATE TABLE ClienteTarjeta()
-use master
-drop database Omniphone
