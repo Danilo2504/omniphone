@@ -8,3 +8,13 @@ C:\Users\GOSTE\Desktop\omniphone\Omniphone\Home\obj\Debug\Home.csproj.GenerateRe
 C:\Users\GOSTE\Desktop\omniphone\Omniphone\Home\obj\Debug\Home.csproj.CoreCompileInputs.cache
 C:\Users\GOSTE\Desktop\omniphone\Omniphone\Home\obj\Debug\Home.exe
 C:\Users\GOSTE\Desktop\omniphone\Omniphone\Home\obj\Debug\Home.pdb
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\bin\Debug\Home.exe.config
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\bin\Debug\Home.exe
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\bin\Debug\Home.pdb
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\obj\Debug\Home.csprojAssemblyReference.cache
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\obj\Debug\Home.Form1.resources
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\obj\Debug\Home.Properties.Resources.resources
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\obj\Debug\Home.csproj.GenerateResource.cache
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\obj\Debug\Home.csproj.CoreCompileInputs.cache
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\obj\Debug\Home.exe
+C:\Users\psarmiento20_11022\Desktop\omniphone\login app\Home\obj\Debug\Home.pdb
