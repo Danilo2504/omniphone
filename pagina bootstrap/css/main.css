@@ -54,7 +54,7 @@ ul li {
   padding: 5px 15px;
 }
 .menu .navbar-default .navbar-nav > li > a:hover {
-  color: #12279e;
+  color: #c2240c;
 }
 .menu .navbar-nav {
   float: none;
@@ -137,15 +137,15 @@ header .social-info li a:hover {
   margin-right: 10px;
   font-size: 20px;
 }
-#home .block .download-btn li .btn-blue {
-  border: 1px solid #12279e !important;
+#home .block .download-btn li .btn-red {
+  border: 1px solid #c2240c !important;
   -webkit-transition: .2s all;
   -o-transition: .2s all;
   transition: .2s all;
-  color:#12279e !important;
+  color:#c2240c !important;
 }
 
-#home .block .download-btn li .btn-blue:hover {
+#home .block .download-btn li .btn-red:hover {
   background: #ff001b !important;
   color:#FFF !important;
 }
@@ -188,15 +188,15 @@ header .social-info li a:hover {
   color: #fff;
 }
 #servicios .block:hover h3 {
-  color: #12279e;
+  color: #c2240c;
 }
 #servicios .block:hover .icon {
   border: 1px solid #FFFFFF;
-  background: #12279e;
+  background: #c2240c;
   color: #fff;
-  -webkit-box-shadow: 0 0 0px 2px #12279e;
-  -moz-box-shadow: 0 0 0px 2px #12279e;
-  box-shadow: 0 0 0px 2px #12279e;
+  -webkit-box-shadow: 0 0 0px 2px #c2240c;
+  -moz-box-shadow: 0 0 0px 2px #c2240c;
+  box-shadow: 0 0 0px 2px #c2240c;
 }
 #servicios .block .icon {
   width: 90px;
@@ -253,18 +253,18 @@ header .social-info li a:hover {
 #productos .download-btn li a i {
   margin-right: 10px;
   font-size: 20px;
-  color:#12279e !important;
+  color:#c2240c !important;
 }
 
-#productos .btn-blue-o {
-  border: 1px solid #12279e !important;
+#productos .btn-red-o {
+  border: 1px solid #c2240c !important;
   -webkit-transition: .2s all;
   -o-transition: .2s all;
   transition: .2s all;
-  color:#12279e !important;
+  color:#c2240c !important;
 }
 
-#productos .btn-blue-o:hover {
+#productos .btn-red-o:hover {
   background: #ff001b !important;
   color:#FFF !important;
 }
@@ -282,17 +282,17 @@ header .social-info li a:hover {
 
 
 .pagination li a{
-  color:#12279e;
+  color:#c2240c;
 }
 
 .pagination li a:hover {
   color:#FFF;
-  background-color:#12279e;
+  background-color:#c2240c;
 }
 
 .pagination li.active a {
-  background-color:#12279e !important;
-  border-color:#12279e !important;
+  background-color:#c2240c !important;
+  border-color:#c2240c !important;
 }
 
 #productos .price {
@@ -300,7 +300,7 @@ header .social-info li a:hover {
   display:block;
   text-align:right;
   margin-top:20px;
-  color:#12279e;
+  color:#c2240c;
 }
 
 
@@ -333,7 +333,7 @@ header .social-info li a:hover {
 }
 
 a {
-  color:#12279e;
+  color:#c2240c;
 }
 
 a:hover {
@@ -488,14 +488,14 @@ a:hover {
   background-color: transparent;
   border: 1px solid #aaa !important;
   padding: 15px;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .mts-contact-section .mts-contact-form input[type='submit']{
   font-size: 14px;
   font-weight: 700;
   color: #FFF;
-  background-color: #12279e;
+  background-color: #c2240c;
   padding: 15px 30px;
   text-align: center;
   display: inline-block;
