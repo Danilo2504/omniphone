@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\bin\Debug\pruebaBDD.exe.config
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\bin\Debug\pruebaBDD.exe
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\bin\Debug\pruebaBDD.pdb
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\obj\Debug\pruebaBDD.csprojAssemblyReference.cache
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\obj\Debug\pruebaBDD.Form1.resources
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\obj\Debug\pruebaBDD.Properties.Resources.resources
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\obj\Debug\pruebaBDD.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\obj\Debug\pruebaBDD.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\obj\Debug\pruebaBDD.exe
+C:\Users\Alumno\source\repos\pruebaBDD\pruebaBDD\obj\Debug\pruebaBDD.pdb
