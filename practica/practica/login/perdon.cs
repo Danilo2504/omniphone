@@ -12,7 +12,6 @@ namespace login
 {
     public partial class perdon : Form
     {
-        Form2 login = new Form2();
         public perdon()
         {
             InitializeComponent();
@@ -40,6 +39,8 @@ namespace login
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+            Form2 login = new Form2();
             login.Show();
             this.Close();
         }

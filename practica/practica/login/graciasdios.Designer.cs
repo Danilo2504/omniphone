@@ -79,6 +79,7 @@ namespace login
             this.button2.TabIndex = 3;
             this.button2.Text = "Entrar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // graciasdios
             // 
@@ -94,7 +95,7 @@ namespace login
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "graciasdios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "graciasdios";
             this.Load += new System.EventHandler(this.graciasdios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
