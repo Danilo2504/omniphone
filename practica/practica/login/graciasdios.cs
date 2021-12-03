@@ -27,5 +27,12 @@ namespace login
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            home homepage = new home();
+            homepage.Show();
+            this.Close();
+        }
     }
 }

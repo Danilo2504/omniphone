@@ -86,6 +86,7 @@ C:\Users\Alumno\Desktop\omni\omniphone\practica\practica\login\obj\Debug\net5.0-
 C:\Users\Alumno\Desktop\omni\omniphone\practica\practica\login\obj\Debug\net5.0-windows\ref\login.dll
 C:\Users\Alumno\Desktop\omni\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.pdb
 C:\Users\Alumno\Desktop\omni\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\Alumno\Desktop\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.exe
 C:\Users\Alumno\Desktop\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.deps.json
 C:\Users\Alumno\Desktop\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.runtimeconfig.json
@@ -108,3 +109,29 @@ C:\Users\Alumno\Desktop\omniphone\practica\practica\login\obj\Debug\net5.0-windo
 C:\Users\Alumno\Desktop\omniphone\practica\practica\login\obj\Debug\net5.0-windows\ref\login.dll
 C:\Users\Alumno\Desktop\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.pdb
 C:\Users\Alumno\Desktop\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.genruntimeconfig.cache
+=======
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.exe
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.deps.json
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.runtimeconfig.json
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.dll
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\bin\Debug\net5.0-windows\ref\login.dll
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\bin\Debug\net5.0-windows\login.pdb
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.csproj.AssemblyReference.cache
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.Form1.resources
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.Form2.resources
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.graciasdios.resources
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.perdon.resources
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.Properties.Resources.resources
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.AssemblyInfo.cs
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.dll
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\ref\login.dll
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.pdb
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.genruntimeconfig.cache
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.home.resources
+C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\obj\Debug\net5.0-windows\login.product.resources
+>>>>>>> 3700c4854234b67a71921d29f8ffb2c4cf36629c

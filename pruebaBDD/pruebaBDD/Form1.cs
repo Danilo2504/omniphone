@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-
 namespace pruebaBDD
 {
     public partial class Form1 : Form
@@ -20,11 +19,12 @@ namespace pruebaBDD
         //Data Source = ALUMNO007\SQLEXPRESS;Initial Catalog = cuentas; User ID = ALUMNO007\Alumno;Password=";
         private void button1_Click(object sender, EventArgs e)
         {
+
             try
 
             {
 
-                String str = "server=ALUMNO007\SQLEXPRESS;database=cuentas;UID=ALUMNO007\Alumno;integrated security=true";
+                String str = @"server=CASA\SQLEXPRESS01;database=cuentas;UID=omniphone;integrated security=true";
 
                 String query = "select * from cuentas";
 
@@ -51,4 +51,5 @@ namespace pruebaBDD
 
             }
         }
+    }
 }

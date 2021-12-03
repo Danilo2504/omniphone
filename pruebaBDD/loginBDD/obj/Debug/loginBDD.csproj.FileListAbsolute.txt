@@ -1,0 +1,10 @@
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\bin\Debug\loginBDD.exe.config
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\bin\Debug\loginBDD.exe
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\bin\Debug\loginBDD.pdb
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\obj\Debug\loginBDD.Form1.resources
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\obj\Debug\loginBDD.Properties.Resources.resources
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\obj\Debug\loginBDD.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\obj\Debug\loginBDD.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\obj\Debug\loginBDD.exe
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\obj\Debug\loginBDD.pdb
+C:\Users\Alumno\Desktop\proyecto\omniphone\pruebaBDD\loginBDD\obj\Debug\loginBDD.csproj.AssemblyReference.cache

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\obj\\",
+=======
+    "C:\\Users\\alumno\\Desktop\\POO\\omniphone\\practica\\practica\\login\\login.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alumno\\Desktop\\POO\\omniphone\\practica\\practica\\login\\login.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\POO\\omniphone\\practica\\practica\\login\\login.csproj",
+        "projectName": "login",
+        "projectPath": "C:\\Users\\alumno\\Desktop\\POO\\omniphone\\practica\\practica\\login\\login.csproj",
+        "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alumno\\Desktop\\POO\\omniphone\\practica\\practica\\login\\obj\\",
+>>>>>>> 3700c4854234b67a71921d29f8ffb2c4cf36629c
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

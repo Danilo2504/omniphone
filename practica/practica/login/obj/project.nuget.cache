@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "q0N2ft9mpytOClVMU5zHoko9nFPru5LhuN6/4hF+8KlKNV6PMs3xxhGzEA03DHl2dheS8z+SYOBeEpiWuZIDrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj",
@@ -25,5 +26,11 @@
     "C:\\Users\\Alumno\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "lC4isKUwMUywj2sqz9/P+r5atG1gIy6hDQOUAfSADRTj9NqpBizRrWLKK5eBS0SztLDYUkwiX+ljWPUFSvDgew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alumno\\Desktop\\POO\\omniphone\\practica\\practica\\login\\login.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 3700c4854234b67a71921d29f8ffb2c4cf36629c
   "logs": []
 }

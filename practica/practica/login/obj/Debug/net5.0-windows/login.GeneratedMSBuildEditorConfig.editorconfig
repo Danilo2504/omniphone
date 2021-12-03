@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = login
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Alumno\Desktop\omniphone\practica\practica\login\
+=======
+build_property.ProjectDir = C:\Users\alumno\Desktop\POO\omniphone\practica\practica\login\
+>>>>>>> 3700c4854234b67a71921d29f8ffb2c4cf36629c

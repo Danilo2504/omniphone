@@ -18,3 +18,13 @@ C:\Users\Alumno\source\repos\omniphone\Paginas C#\Producto\obj\Debug\Producto.cs
 C:\Users\Alumno\source\repos\omniphone\Paginas C#\Producto\obj\Debug\Producto.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\omniphone\Paginas C#\Producto\obj\Debug\Producto.exe
 C:\Users\Alumno\source\repos\omniphone\Paginas C#\Producto\obj\Debug\Producto.pdb
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\bin\Debug\Producto.exe.config
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\bin\Debug\Producto.exe
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\bin\Debug\Producto.pdb
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\obj\Debug\Producto.csprojAssemblyReference.cache
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\obj\Debug\Producto.Form1.resources
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\obj\Debug\Producto.Properties.Resources.resources
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\obj\Debug\Producto.csproj.GenerateResource.cache
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\obj\Debug\Producto.csproj.CoreCompileInputs.cache
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\obj\Debug\Producto.exe
+C:\Users\GOSTE\Desktop\omniphone\Paginas C#\Producto\obj\Debug\Producto.pdb

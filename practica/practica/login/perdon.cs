@@ -12,7 +12,10 @@ namespace login
 {
     public partial class perdon : Form
     {
+<<<<<<< HEAD
           
+=======
+>>>>>>> 3700c4854234b67a71921d29f8ffb2c4cf36629c
         public perdon()
         {
             InitializeComponent();
@@ -40,6 +43,10 @@ namespace login
 
         private void button2_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 3700c4854234b67a71921d29f8ffb2c4cf36629c
             Form2 login = new Form2();
             login.Show();
             this.Close();

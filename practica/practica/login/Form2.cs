@@ -26,6 +26,7 @@ namespace login
             {
                 graciasdios = new graciasdios();
                 graciasdios.Show();
+                this.Close();
             }
         }
 
