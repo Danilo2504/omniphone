@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\login.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\login.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\login.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj",
         "projectName": "login",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\login.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\login.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\omni\\omniphone\\practica\\practica\\login\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\omniphone\\practica\\practica\\login\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
