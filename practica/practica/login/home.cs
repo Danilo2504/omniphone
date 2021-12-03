@@ -28,5 +28,33 @@ namespace login
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form2 login = new Form2();
+            login.Show();
+            this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            product celular = new product();
+            celular.Show();
+            this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            product celular = new product();
+            celular.Show();
+            this.Close();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            product celular = new product();
+            celular.Show();
+            this.Close(); 
+        }
     }
 }

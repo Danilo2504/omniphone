@@ -23,5 +23,10 @@ namespace login
             homepage.Show();
             this.Close();
         }
+
+        private void precio_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

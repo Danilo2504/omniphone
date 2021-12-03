@@ -61,6 +61,7 @@ namespace login
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(515, 263);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -72,6 +73,7 @@ namespace login
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(515, 229);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -83,6 +85,7 @@ namespace login
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(515, 196);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -94,6 +97,7 @@ namespace login
             // Lanzamiento
             // 
             this.Lanzamiento.AutoSize = true;
+            this.Lanzamiento.BackColor = System.Drawing.Color.Transparent;
             this.Lanzamiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Lanzamiento.Location = new System.Drawing.Point(515, 162);
             this.Lanzamiento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -104,11 +108,11 @@ namespace login
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button2.BackColor = System.Drawing.Color.LightGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button2.Location = new System.Drawing.Point(603, 441);
+            this.button2.ForeColor = System.Drawing.Color.DarkRed;
+            this.button2.Location = new System.Drawing.Point(690, 441);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(248, 70);
@@ -119,16 +123,19 @@ namespace login
             // precio
             // 
             this.precio.AutoSize = true;
+            this.precio.BackColor = System.Drawing.Color.Transparent;
             this.precio.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.precio.Location = new System.Drawing.Point(505, 129);
+            this.precio.Location = new System.Drawing.Point(515, 121);
             this.precio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.precio.Name = "precio";
-            this.precio.Size = new System.Drawing.Size(187, 29);
+            this.precio.Size = new System.Drawing.Size(181, 29);
             this.precio.TabIndex = 25;
-            this.precio.Text = " Precio:130 U$D";
+            this.precio.Text = "Precio:130 U$D";
+            this.precio.Click += new System.EventHandler(this.precio_Click);
             // 
             // nom_prod
             // 
+            this.nom_prod.BackColor = System.Drawing.Color.Transparent;
             this.nom_prod.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nom_prod.Location = new System.Drawing.Point(503, 24);
             this.nom_prod.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -141,6 +148,7 @@ namespace login
             // 
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel1.Controls.Add(this.pictureBox2);
             this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
@@ -234,7 +242,7 @@ namespace login
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(41, 38);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -246,14 +254,14 @@ namespace login
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.BackColor = System.Drawing.Color.LightGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Location = new System.Drawing.Point(478, 475);
+            this.button1.ForeColor = System.Drawing.Color.DarkRed;
+            this.button1.Location = new System.Drawing.Point(547, 458);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 36);
+            this.button1.Size = new System.Drawing.Size(117, 53);
             this.button1.TabIndex = 31;
             this.button1.Text = "Volver";
             this.button1.UseVisualStyleBackColor = false;
@@ -263,6 +271,8 @@ namespace login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(977, 536);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -274,6 +284,7 @@ namespace login
             this.Controls.Add(this.nom_prod);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "product";
             this.Text = "product";
             this.flowLayoutPanel1.ResumeLayout(false);
