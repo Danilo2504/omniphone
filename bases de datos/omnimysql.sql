@@ -1,13 +1,13 @@
 
 create table cliente(
-id_cliente int NOT NULL,
+id_cliente int AUTO_INCREMENT,
 contrasena varchar(50),
-dni int unique NOT NULL,
+dni int,
 tel int,
 nom_user varchar (20),
 apell_user varchar (20),
-email varchar(50) NOT NULL,
-num_tarj int unique,
+email varchar(50),
+num_tarj int,
 CONSTRAINT PK_cliente PRIMARY KEY(id_cliente)
 );
 
@@ -34,7 +34,7 @@ id_compra int,
 met_pago varchar(20),
 cant smallint,
 fecha_compra date,
-id_cliente2 int unique,
+id_cliente2 int,
 CONSTRAINT PK_compra PRIMARY KEY(id_compra),
 CONSTRAINT FK_cliente_compra FOREIGN KEY(id_cliente2) REFERENCES cliente(id_cliente)
 );
@@ -58,17 +58,7 @@ constraint PK_caract PRIMARY KEY (id_prod2),
 constraint FK_prod_carac FOREIGN KEY(id_prod2) REFERENCES producto (id_prod) 
 );
 
-insert into cliente(id_cliente,contrasena,dni,tel,nom_user,apell_user,email,num_tarj) VALUES (0,'hola','45753582','113059282','rancho','villa','hola@gmail.com', 200230443),
-(1,'chhau','45753583','113059284','pancho','villa','hola3@gmail.com',200220445),
-(2,'adios','45753584','113059252','cornelio','vila','holaaveces@gmail.com',200220446),
-(3,'polainas','45753585','113059262','rambo','via','hola1@gmail.com',200220474),
-(4,'foofo','45753586','113059782','rancio','vil','hola20@gmail.com',200220484);
 
-
-insert into compra(id_compra,met_pago,cant,fecha_compra,id_cliente2) VALUES (000,'VISA',1,'2021/11/20',0),
-(001,'mastercard',3,'2021/10/21',1),
-(002,'efectivo',2,'2021/11/1',2),
-(003,'transferencia',4,'2021/12/21',3);
 
 
 INSERT INTO producto (id_prod,precio,stock,nom_prod,marca_prod)VALUES
