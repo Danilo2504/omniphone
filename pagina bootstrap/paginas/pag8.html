@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Pagina para picaros</title>
+        <title>Productos</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -44,7 +44,7 @@
                         <img src="images/logo.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-6_col-xs-6 col-sm-6">
+                <div class="col-md-6 col-xs-6 col-sm-6 ">
                     <div class="menu">
                         <nav class="navbar navbar-default" role="navigation">
                             <div class="container-fluid">
@@ -57,7 +57,12 @@
                                     <span class="icon-bar"></span>
                                     </button>
                                 </div>
-
+								<div>
+                                    <form action="php/buscar.php" method="post">
+                                        <input type="text" name="buscar" id="">
+                                        <input type="submit" value="Buscar">
+                                    </form>
+                                </div>
                                 <!-- barra de navegacion -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
@@ -66,6 +71,7 @@
                                         <li><a href="#productos">Productos</a></li>
                                         <li><a href="#reviews">Reviews</a></li>
                                         <li><a href="#contact">info Contacto</a></li>
+										<button onclick="location.href='prueba/index.html'">Login</button>
                                     </ul>
                                   
                                 </div><!-- /.navbar-collapse -->
@@ -73,7 +79,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-md-3_col-xs-12 col-sm-3">
+                <div class="col-md-3 col-xs-12 col-sm-3">
                     <ul class="social-info">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -115,10 +121,7 @@
                                         </p>
                                     <ul class="download-btn">
                                         <li>
-                                            <a href="#" class="btn btn-default btn-grey"> <i class="fa fa-list"></i>Detalles</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="btn btn-default btn-blue"><i class="fa fa-shopping-cart"></i>Compralo!</a>
+                                            <button class="btn btn-default btn-red-o" onclick="miFuncion()"><i class="fa fa-shopping-cart"></i>Compralo!</button>
                                         </li>
                                     </ul>
                                 </div>
